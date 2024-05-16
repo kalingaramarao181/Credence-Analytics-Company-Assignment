@@ -1,0 +1,99 @@
+.movies-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 95vh;
+  padding: 2vw;
+}
+.movies-title{
+  font-size: 2vw;
+  font-family: "Roboto";
+  align-self: flex-start;
+}
+.movies-list{
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+}
+.movie-item{  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 40vh;
+  width: 15vw;
+  padding: 0.5vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 1vw;
+  margin-bottom: 1vh;
+}
+.movie-image{
+  height: 10vh;
+  width: 15vw;
+  border-radius: 5px;
+}
+.content-container{
+  height: 12vh;
+}
+.movie-name{
+  font-size: 1.5vw;
+  font-weight: 600;
+  padding: 0px;
+  margin: 0px;
+}
+.movie-summary{
+  scrollbar-width: none;
+  overflow: auto;
+  height: 11vh;
+  font-size: 1vw;
+}
+.update-button, .delete-button, .cancel-button, .add-button{
+  height: 3vh;
+  width: 4vw;
+  font-size: 0.6vw;
+  background-color: rgb(145, 145, 8);
+  border: none;
+  border-radius: 5px;
+  margin-right: 0.5vw;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+}
+.add-button{
+  background-color: rgb(49, 49, 248);
+}
+.cancel-button{
+  background-color: grey;
+}
+.delete-button{
+  background-color: red;
+}
+.button-container{
+  height: 4vh;
+  display: flex;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+}
+.form-input{
+  height: 4vh;
+  border-radius: 5px;
+  margin-bottom: 1vh;
+}
+.form-textarea{
+  border-radius: 5px;
+  margin-bottom: 1vh;
+}
+.paragraph{
+  font-size: 0.5vw;
+}
+.paragraph-img{
+  height: 5vh;
+  width: 3vw;
+}
